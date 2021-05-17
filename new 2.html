@@ -1,0 +1,22 @@
+<html>
+
+	<title>Hello VSS</title>
+
+	<body>
+		
+		<h1 id="hellotext">Hello World</h1>
+		<button onclick="myFunction()">Change Text Colour</button>
+		
+	</body>
+	
+	<script>
+		
+		function myFunction()
+		{
+			var randomColor = '#'+Math.floor(Math.random()*16777215).toString(16);
+			document.getElementById("hellotext").style.color=randomColor;
+		}
+		
+    </script>
+
+</html>
